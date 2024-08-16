@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laptops-Filter</title>
+    <style>
+      #product1, #product2, #product3, #product4, #product5, #text1{
+        visibility: hidden;
+      }
+    </style>
+    <link rel="stylesheet" href="laptop.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="navBar">
+
+        <div class="logoSection">
+          <div>
+            <img src="images/flipkart-logo.png" class="flipkart-logo" alt="flipkart-logo" />
+          </div>
+  
+          <div>
+            <p class="logo-text">Explore <span id="plus">Plus+</span></p>
+          </div>
+        </div>
+  
+        <div class="searchBox">
+          <input class="input" type="text" placeholder="Search for products, brands and more" />
+  
+          <div class="search-logo">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+  
+        <div class="loginBox">
+          <div class="login">Login</div>
+        </div>
+  
+        <div class="becomeSellerBox">
+          <p>Become a Seller</p>
+        </div>
+  
+        <div class="moreBox">
+          <p>More</p>
+        </div>
+  
+        <div class="cartBox">
+          <i class="fa-solid fa-cart-shopping"></i>
+          Cart
+        </div>
+      </div>
+    </header>
+    <div class="main-content">
+        <div class="filters">
+          <input style="width: fit-content; background-color: rgb(205, 205, 205);" class="input" type="text" placeholder="What do you want?" />
+          <a href="laptopfilter.html"><input class="btn" style="height: 35px; width: 50px; background-color: #2874f0; color: white; font-size: 4mm; border-color: #2874f0;" type="submit" value="Filter"></a><br><br>
+          <h4>Processor</h4><br>
+          <label><input type="checkbox"> Core i3</label><br><br>
+          <label><input type="checkbox" id="processors"> Core i5</label><br><br>
+          <label><input type="checkbox"> Core i7</label><br><br>
+          <label><input type="checkbox"> Core i9</label><br><br>
+          <label><input type="checkbox"> Ryzen 7</label><br><br>
+          <label><input type="checkbox" id="pro"> Ryzen 5</label><br><br>
+          <h4>RAM Capacity</h4><br>
+          <label><input type="checkbox"> 4 GB</label><br><br>
+          <label><input type="checkbox" id="rc"> 8 GB</label><br><br>
+          <label><input type="checkbox" id="ram"> 16 GB</label><br><br>
+          <label><input type="checkbox"> 32 GB</label><br><br>
+          <label><input type="checkbox"> 48 GB</label><br><br>
+          <h4>Storage Type</h4><br>
+          <label><input type="checkbox" id="storage"> SSD</label><br><br>
+          <label><input type="checkbox"> HDD</label><br><br>
+          <h4>Storage Capacity</h4><br>
+          <label><input type="checkbox" id="store"> 256 GB</label><br><br>
+          <label><input type="checkbox" id="capacity"> 512 GB</label><br><br>
+          <label><input type="checkbox"> 1 TB</label><br><br>
+          <h4>Graphic Card</h4><br>
+          <label><input type="checkbox"> RTX 2050</label><br><br>
+          <label><input type="checkbox" id="graphic"> RTX 3050</label><br><br>
+          <label><input type="checkbox"> RTX 4050</label><br><br>
+          <label><input type="checkbox"> RTX 4070</label><br><br>
+
+        </div>
+        <div class="products">
+          <div style="background-color: white; margin: 5px;" class="word-by-word">
+            <span>Given</span>
+            <span>a</span>
+            <span>budget</span>
+            <span>of</span>
+            <span>50,000</span>
+            <span>Rs,</span>
+            <span>you'll</span>
+            <span>need</span>
+            <span>to</span>
+            <span>prioritize</span>
+            <span>specific</span>
+            <span>components</span>
+            <span>for</span>
+            <span>a</span>
+            <span>laptop</span>
+            <span>that</span>
+            <span>can</span>
+            <span>handle</span>
+            <span>the</span>
+            <span>demands</span>
+            <span>of</span>
+            <span>a</span>
+            <span>Computer</span>
+            <span>Science</span>
+            <span>curriculum.</span>
+            <span>Here's</span>
+            <span>a</span>
+            <span>breakdown</span>
+            <span>of</span>
+            <span>essential</span>
+            <span>specs:</span>
+            <br>
+            <span>Opt</span>
+            <span>for:</span>
+            <span>Intel</span>
+            <span>Core</span>
+            <span>i5</span>
+            <span>or</span>
+            <span>AMD</span>
+            <span>Ryzen</span>
+            <span>5</span>
+            <span>processors.</span>
+            <span>These</span>
+            <span>offer</span>
+            <span>decent</span>
+            <span>performance</span>
+            <span>for</span>
+            <span>general</span>
+            <span>tasks</span>
+            <span>and</span>
+            <span>basic</span>
+            <span>programming.</span>
+            <br>
+            <span>Aim</span>
+            <span>for:</span>
+            <span>8GB</span>
+            <span>of</span>
+            <span>RAM.</span>
+            <span>This</span>
+            <span>is</span>
+            <span>the</span>
+            <span>minimum</span>
+            <span>for</span>
+            <span>smooth</span>
+            <span>multitasking</span>
+            <span>and</span>
+            <span>running</span>
+            <span>multiple</span>
+            <span>applications.</span>
+            <br>
+            <span>A</span>
+            <span>solid-state</span>
+            <span>drive</span>
+            <span>(SSD)</span>
+            <span>over</span>
+            <span>a</span>
+            <span>hard</span>
+            <span>disk</span>
+            <span>drive</span>
+            <span>(HDD).</span>
+            <span>SSDs</span>
+            <span>offer</span>
+            <span>faster</span>
+            <span>boot</span>
+            <span>times,</span>
+            <span>application</span>
+            <span>load</span>
+            <span>times,</span>
+            <span>and</span>
+            <span>overall</span>
+            <span>system</span>
+            <span>responsiveness.</span>
+            <br>
+            <span>256GB</span>
+            <span>SSD</span>
+            <span>is</span>
+            <span>sufficient</span>
+            <span>for</span>
+            <span>most</span>
+            <span>students,</span>
+            <span>but</span>
+            <span>consider</span>
+            <span>a</span>
+            <span>512GB</span>
+            <span>SSD</span>
+            <span>for</span>
+            <span>ample</span>
+            <span>storage.</span>
+            <br>
+            <span>Since</span>
+            <span>you</span>
+            <span>plan</span>
+            <span>on</span>
+            <span>doing</span>
+            <span>Android</span>
+            <span>Development,</span>
+            <span>you</span>
+            <span>should</span>
+            <span>consider</span>
+            <span>minimum</span>
+            <span>of</span>
+            <span>2GB</span>
+            <span>of</span>
+            <span>graphics</span>
+            <span>card.</span> 
+          </div>
+          <div class="product" id="text1">
+            <p>Showing the filtered products</p>
+          </div>
+          <div class="product" id="product1">
+            <img style="width: 300px; height: 200px;" src="../Flipkart-Clone/images/p1.jpeg" alt="HP Chromebook">
+            <div class="product-container">
+            <div class="product-details">
+                <h3>MSI Thin 15 Intel Core i5 12th Gen 12450H</h3>
+                <ul>
+                    <li>Intel Core i5 Processor</li>
+                    <li>16 GB LPDDR5 RAM</li>
+                    <li>Chrome OS</li>
+                    <li>39.62 cm (15.6 Inch) Touchscreen Display</li>
+                    <li>1 Year Warranty</li>
+                </ul>
+                
+              </div>
+              <div style="margin-left: 100px;" class="product-price">
+                <p class="price">₹57,990</p> <p><span class="original-price">₹54,539</span><br><span class="discount">11% off</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="product" id="product2">
+            <img style="width: 300px; height: 200px;" src="../Flipkart-Clone/images/p2.jpeg" alt="Acer Chromebook">
+            <div class="product-container">
+            <div class="product-details">
+                <h3>ASUS Vivobook 16X Intel Core i5 12th Gen 12500H</h3>
+                <ul>
+                    <li>Intel Core i5 Processor 12th gen</li>
+                    <li>16 GB LPDDR5X RAM</li>
+                    <li>Windows OS</li>
+                    <li>40.64 cm (16 Inch) Display</li>
+                    <li>1 Year Warranty</li>
+                </ul>                   
+            </div>
+            <div style="margin-left: 20px;" class="product-price">
+              <p class="price">₹61,990</p> <p><span class="original-price">₹54,539</span><br><span class="discount">11% off</span></p>
+            </div>
+            </div>
+          </div>
+          <div class="product" id="product3">
+            <img style="width: 300px; height: 200px;" src="../Flipkart-Clone/images/p3.jpeg" alt="Acer Chromebook">
+            <div class="product-container">
+            <div class="product-details">
+                <h3>HP Victus Intel Core i5 12th Gen 12450H </h3>
+                <ul>
+                    <li>Intel Core i5 Processor 12th gen</li>
+                    <li>16 GB LPDDR5X RAM</li>
+                    <li>Windows OS</li>
+                    <li>39.62 cm (15.6 Inch) Display</li>
+                    <li>1 Year Warranty</li>
+                </ul>                   
+            </div>
+            <div style="margin-left: 120px;" class="product-price">
+              <p class="price">₹66,990</p> <p><span class="original-price">₹54,539</span><br><span class="discount">11% off</span></p>
+            </div>
+            </div>
+          </div>
+          <div class="product" id="product4">
+            <img style="width: 300px; height: 200px;" src="../Flipkart-Clone/images/p4.jpeg" alt="Acer Chromebook">
+            <div class="product-container">
+            <div class="product-details">
+                <h3>HP Victus Intel Core i5 13th Gen 13420H </h3>
+                <ul>
+                    <li>Intel Core i5 Processor 13th gen</li>
+                    <li>16 GB LPDDR5X RAM</li>
+                    <li>Windows OS</li>
+                    <li>39.62 cm (15.6 Inch) Display</li>
+                    <li>1 Year Warranty</li>
+                </ul>                   
+            </div>
+            <div style="margin-left: 120px;" class="product-price">
+              <p class="price">₹73,990</p> <p><span class="original-price">₹54,539</span><br><span class="discount">11% off</span></p>
+            </div>
+            </div>
+          </div>
+          <div class="product" id="product5">
+            <img style="width: 300px; height: 200px;" src="../Flipkart-Clone/images/p5.jpeg" alt="Acer Chromebook">
+            <div class="product-container">
+            <div class="product-details">
+                <h3>Acer Aspire 7 (2024) Intel Core i5 12th Gen 12450H</h3>
+                <ul>
+                    <li>Intel Core i5 Processor 12th gen</li>
+                    <li>16 GB LPDDR5X RAM</li>
+                    <li>Windows OS</li>
+                    <li>39.62 cm (15.6 Inch) Display</li>
+                    <li>1 Year Warranty</li>
+                </ul>
+                
+              </div>
+              <div style="margin-left: 30px;" class="product-price">
+                <p class="price">₹57,990</p> <p><span class="original-price">₹54,539</span><br><span class="discount">11% off</span></p>
+              </div>
+              </div>
+          </div>
+        </div>
+    </div>
+    <script>
+      // Function to select checkboxes after 120 seconds
+      setTimeout(function() {
+          document.getElementById('processors').checked = true;
+          document.getElementById('ram').checked = true;
+          document.getElementById('storage').checked = true;
+          document.getElementById('graphic').checked = true;
+          document.getElementById('capacity').checked = true;
+          document.getElementById('pro').checked = true;
+          document.getElementById('rc').checked = true;
+          document.getElementById('store').checked = true;
+
+      }, 12500);
+    </script>
+    <script>
+      setTimeout(function() {
+        document.getElementById('product1').style.visibility = 'visible';
+        document.getElementById('product2').style.visibility = 'visible';
+        document.getElementById('product3').style.visibility = 'visible';
+        document.getElementById('product4').style.visibility = 'visible';
+        document.getElementById('product5').style.visibility = 'visible';
+        document.getElementById('text1').style.visibility = 'visible';
+      }, 12000);
+  </script>
+</body>
+</html>
